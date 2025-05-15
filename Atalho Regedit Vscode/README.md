@@ -22,7 +22,7 @@ Este projeto adiciona uma opção chamada **"Abrir com Visual Studio Code"** ao 
 
 ## ▶️ Como usar
 
-1. **Execute o script `atalho_vscode.py` como administrador.**
+1. **Execute o script `Configure_vscode_menucontext.py` como administrador.**
    - Se não for executado como administrador, o próprio script solicitará elevação de privilégios.
 2. Uma janela será exibida pedindo para selecionar o arquivo `Code.exe` (executável do VS Code).
    - Caminho padrão no Windows:
