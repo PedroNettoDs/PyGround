@@ -2,7 +2,7 @@
 
 Este projeto adiciona uma opção chamada **"Abrir com Visual Studio Code"** ao menu de contexto do Windows, acessível ao clicar com o botão direito no fundo de qualquer pasta. Ele facilita a abertura do VS Code diretamente no diretório desejado.
 
-![Demonstração](docs/menu-contexto-demo.gif)
+![Demonstração](menu-contexto-demo.gif)
 
 
 ## 🧩 Funcionalidades
