@@ -1,6 +1,10 @@
-# YouTube Downloader com Interface Gráfica (Tkinter)
+# yTubeRaptor = YouTube Downloader com Interface Gráfica (Tkinter)
 
-Este projeto é uma aplicação de desktop simples e moderna que permite ao usuário baixar vídeos do YouTube com as seguintes funcionalidades integradas:
+Este projeto é uma aplicação de desktop simples e moderna que permite ao usuário baixar vídeos do YouTube 
+
+![Demonstração](yTubeRaptor.gif)
+
+com as seguintes funcionalidades integradas:
 
 ## 🚀 Funcionalidades
 
@@ -33,7 +37,7 @@ pip install yt-dlp Pillow imageio[ffmpeg]
 
 ## 💻 Como usar
 
-1. Execute o script `youtube_downloader.py`.
+1. Execute o script `yTubeRaptor.py`.
 2. Insira a URL do vídeo do YouTube.
 3. Uma miniatura será exibida automaticamente.
 4. Escolha a pasta onde deseja salvar o vídeo.
@@ -44,12 +48,6 @@ pip install yt-dlp Pillow imageio[ffmpeg]
 ## 🧩 Compatibilidade com o Adobe Premiere
 
 O script está configurado para evitar o uso do codec `vp09` (VP9), que não é suportado por padrão pelo Premiere. Ele força o uso do codec `avc1` (H.264), amplamente compatível com softwares de edição de vídeo.
-
----
-
-## ✨ Screenshot
-
-(Opcional: adicionar uma captura de tela aqui mostrando a interface)
 
 ---
 
