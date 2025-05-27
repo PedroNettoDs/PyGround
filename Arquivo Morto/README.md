@@ -6,7 +6,7 @@ pip install pyinstaller
 pyinstaller --onefile ArquivoMorto.py
 2. **Dê um duplo clique** sobre o arquivo para executar.
 
-![Demonstração](menu-contexto-demo.gif)
+![Demonstração](ArquivoMorto-Demo.gif)
 
 **Importante:**  
 - O executável pode demorar alguns segundos para abrir na primeira vez.
