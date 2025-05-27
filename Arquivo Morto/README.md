@@ -1,14 +1,18 @@
 # Ferramenta para Execução de Política de Retenção Exchange Online
 
-1. **Faça o download do arquivo** `ArquivoMorto.exe`
+1. **Edite a variavel** `DOMINIO`
+2. **Compile o programa**: 
+pip install pyinstaller
+pyinstaller --onefile ArquivoMorto.py
 2. **Dê um duplo clique** sobre o arquivo para executar.
+
+![Demonstração](menu-contexto-demo.gif)
 
 **Importante:**  
 - O executável pode demorar alguns segundos para abrir na primeira vez.
-- Certifique-se de estar conectado à internet e ao domínio Paschoalotto.
+- Certifique-se de estar conectado ao domínio.
 
 ## O que a ferramenta faz?
-
 - Solicita apenas o login da caixa desejada (sem precisar digitar o domínio).
 - Exibe avisos em popup sobre a autenticação Microsoft.
 - Executa os comandos necessários automaticamente.
